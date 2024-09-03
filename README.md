@@ -1,6 +1,8 @@
 # UnityURP-InfiniteGrassField
 An Infinite GPU Instanced Grass Field that doesn't require storing trillions of positions in memory
 
+Preview Video : https://youtu.be/mj6hPL3cmfE
+
 The idea is simple, we generate a uniform grid of points in an area and make it move with the camera<br/>
 The trick is moving it in a way that doesn't let the player feel it moving<br/>
 This is simply done by the famous steps formula "floor(value / step) * step"<br/>
