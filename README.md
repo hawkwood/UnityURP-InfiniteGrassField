@@ -9,5 +9,9 @@ In simple words, imagine having a grid that covering the whole space, and the po
 After this, we do a frustrum test to every point before adding it to the PositionsBuffer (I'm using and AppendStructuredBuffer)<br/>
 Then we pass this buffer to the material, and inside of the material we add a small random offset (that is based on the world pos) to the position to give the grass some randomness<br/>
 
+A visualisation for what we are doing:
+![Movie_001](https://github.com/user-attachments/assets/5b0afd5d-c228-42a2-83d3-1c2600b65e64)
+(The green dots are the points that we are going to test before adding them to the buffer)
+
 This project is mostly based on this repo of Colin Leung:<br/>
 https://github.com/ColinLeung-NiloCat/UnityURP-MobileDrawMeshInstancedIndirectExample
